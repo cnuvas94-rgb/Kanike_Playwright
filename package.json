@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "playwrite",
+=======
+  "name": "playwright_test",
+>>>>>>> f761a4f (Add Playwright tests and JS practice files)
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +13,10 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@faker-js/faker": "^10.5.0",
+>>>>>>> f761a4f (Add Playwright tests and JS practice files)
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0"
   }

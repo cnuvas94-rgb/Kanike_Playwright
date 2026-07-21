@@ -1,6 +1,10 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f761a4f (Add Playwright tests and JS practice files)
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -13,6 +17,13 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
+<<<<<<< HEAD
+=======
+  expect:{
+    timeout: 20000
+  
+  },
+>>>>>>> f761a4f (Add Playwright tests and JS practice files)
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -31,6 +42,11 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+<<<<<<< HEAD
+=======
+    video:'on',
+    screenshot:'on',
+>>>>>>> f761a4f (Add Playwright tests and JS practice files)
   },
 
   /* Configure projects for major browsers */
@@ -65,10 +81,17 @@ export default defineConfig({
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
+<<<<<<< HEAD
     // {
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
+=======
+    {
+      name: 'Google Chrome',
+      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+    },
+>>>>>>> f761a4f (Add Playwright tests and JS practice files)
   ],
 
   /* Run your local dev server before starting the tests */
